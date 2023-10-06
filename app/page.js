@@ -6,7 +6,10 @@ export default function Home() {
     <main>
       <h1 className="text-[50px] font-bold">CPRG 306: Web Development 2 - Assignments</h1>
       <MyComp />
-      <Link href="week2">Week2</Link>
+      <ul>
+        <li><Link href="week2">Week2</Link></li>
+        <li><Link href="week3">week3</Link></li>
+      </ul>
     </main>
   );
 }
