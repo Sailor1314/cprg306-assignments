@@ -4,7 +4,6 @@ import NewItem from "./new-item";
 import ItemList from "./item-list";
 import MealIdeas from "./meal-ideas";
 import itemsData from "./items.json";
-import Link from "next/link";
 import { useUserAuth } from "../_utils/auth-context";
 import { dbAddItem } from "../_services/shopping-list-service";
 
